@@ -1,0 +1,7 @@
+git init //初始化一个git的管理实例，初始化以后会出现一个.git的文件夹，当前初始化后所有的文件都是处于没有被跟踪的状态
+git add . //添加所有的文件进入当前的git实例中去
+git commit -m "first commit" //将缓冲区中的文件登记，添加到本地库中
+git push //将本地库中的文件等级，添加到远端库中去
+git remote add name url //添加远程库地址
+git remote remove name //删除远程库
+git push -u origin master //将本地的master分支push到origin中
